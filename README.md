@@ -5,7 +5,7 @@
 
 This Arduino Uno project is a stepper motor controller. It also features an obstacle detector using an infrared(IR) sensor. To control the speed of the motor, capacitive touch sensors are used.
 
-Stepper motors are used in applications where precision is a priority (e.g. 3D printers, electronics assembly, etc). In this project, a 28BYJ-48 - 5V Stepper Motor is used. For convenience, motor control is provided by the Arduino Stepper Library.
+Stepper motors are used in applications where precision is a priority (e.g. 3D printers, electronics assembly, etc). In this project, a 28BYJ-48 - 5V Stepper Motor is used. For convenience, motor control is provided by the Arduino Stepper Library. The motor is driven with a ULN2003 driver module board.
 
 Capacitive touch sensors can provide advantage over mechanical buttons because of the lack of moving parts. Wear and tear can render the buttons damaged over time. Touch sensors do not have protruding parts, allowing the device to have a sleeker look. 
 
