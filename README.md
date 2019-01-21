@@ -1,7 +1,7 @@
 # bpmotor
 ## __[Arduino Uno] Battery-powered Stepper Motor with Obstacle Detection and Capacitive Touch Controls__
 
-### Summary
+### __Summary__
 
 This Arduino Uno project is a stepper motor controller. It also features an obstacle detector using an infrared(IR) sensor. To control the speed of the motor, capacitive touch sensors are used.
 
@@ -15,6 +15,7 @@ Due to the system being battery powered, it is also important to have a sensing 
 
 The stepper motor's speed is controlled using the capacitive touch input, with the current _rpm_ and _motor steps_ displayed on the LCD. If any obstacle is present, the motor will stop and a message will be displayed on the LCD accordingly.
 
+### __Materials__
 
 Inputs:
 * Battery Level
