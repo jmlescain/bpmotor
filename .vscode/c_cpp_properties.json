@@ -10,7 +10,10 @@
                 "C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/5.4.0/include",
                 "C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard",
                 "C:/Program Files (x86)/Arduino/libraries/LiquidCrystal/src",
-                "C:\\Program Files (x86)\\Arduino\\hardware\\tools\\**"
+                "C:\\Program Files (x86)\\Arduino\\hardware\\tools\\**",
+                "C:\\Program Files (x86)\\Arduino\\libraries\\**",
+                "C:\\Users\\Jan Marcelo III\\Documents\\Arduino\\hardware\\tools\\**",
+                "C:\\Users\\Jan Marcelo III\\Documents\\Arduino\\libraries\\**"
             ],
             "browse": {
                 "path": [
@@ -22,7 +25,7 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "intelliSenseMode": "clang-x64",
+            "intelliSenseMode": "gcc-x64",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "forcedInclude": [

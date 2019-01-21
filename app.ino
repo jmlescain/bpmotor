@@ -17,7 +17,11 @@ void loop(){
 
     int upTouch = ADCTouch.read(A1) - ref0;
     int downTouch = ADCTouch.read(A2) - ref1;
+
     int infrared = analogRead(A3);
+    int battery_level = analogRead(A0);
+
+    battery_level = (battery_level - 640) * 100 / 307; 
 
     Serial.print(up);
     Serial.print("\t\t");
@@ -30,6 +34,10 @@ void loop(){
     Serial.print("\t\t");
 
     Serial.print(infrared);
+    Serial.print("\t\t");
+
+    Serial.print(battery_level);
+
     Serial.print("\n");
 
     if (upTouch > 40) {
